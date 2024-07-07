@@ -1,0 +1,39 @@
+.create-post-container {
+    width: 60%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #def;
+    border-radius: 10px;
+    background-color: #f9f3f8;
+}
+
+.create-post-container h1 {
+    text-align: center;
+}
+
+.create-post-container input,
+.create-post-container textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-post-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: hsl(157, 100%, 35%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-post-container button:hover {
+    background-color: #0056b3;
+}

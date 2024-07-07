@@ -1,0 +1,30 @@
+.post-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.post-item h2 {
+    margin: 0;
+}
+
+.post-item p {
+    margin: 10px 0;
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: hsl(19, 100%, 50%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
